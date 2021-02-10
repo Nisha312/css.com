@@ -1,0 +1,62 @@
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    margin: auto;
+}
+.box:hover{
+border-radius: 50px ;
+background-color: yellow;
+}
+.box2{
+height: 400px;
+    width: 400px;
+    background-color: yellow;
+    margin: auto;
+background-image: url('img/download.jpg'),url('img/download.png');
+background-repeat: no-repeat;
+background-position: top left,bottom right;
+border:5px dotted black;
+background-origin: border-box;
+padding: 10px;
+
+}
+
+.box3{
+height: 400px;
+    width: 400px;
+    background-color: yellow;
+    margin: auto;
+
+border:5px dotted black;
+background-clip: padding-box;
+padding: 10px;
+
+}
+.box4{
+height: 400px;
+    width: 400px;
+background-color: yellow;
+    margin: auto;
+background-image: linear-gradient(to right , red,pink,green);
+
+}
+.box5{
+height: 400px;
+    width: 400px;
+background-color: yellow;
+    margin: auto;
+   background-image: radial-gradient(closest-side at 45% 40%, red,pink,green);
+
+}
+.box6{
+height: 400px;
+    width: 400px;
+background-color: yellow;
+    margin: auto;
+   text-align: center;
+   font-size: large;
+   line-height: 400px;
+   color: rgb(235, 230, 230);
+   text-shadow: -1px 6px 1px red;
+box-shadow: 10px 10px  red;
